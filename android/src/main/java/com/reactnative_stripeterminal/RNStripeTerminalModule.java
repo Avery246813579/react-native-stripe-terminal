@@ -366,6 +366,10 @@ public class RNStripeTerminalModule extends ReactContextBaseJavaModule implement
                 paymentIntentParamBuilder.setStatementDescriptor(options.getString(STATEMENT_DESCRIPTOR));
             }
 
+            if (options.hasKey(STATEMENT_DESCRIPTOR_SUFFIX)) {
+                paymentIntentParamBuilder.setStatementDescriptor(options.getString(STATEMENT_DESCRIPTOR_SUFFIX));
+            }
+
             if (options.hasKey(RECEIPT_EMAIL)) {
                 paymentIntentParamBuilder.setReceiptEmail(options.getString(RECEIPT_EMAIL));
             }

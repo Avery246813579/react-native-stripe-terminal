@@ -70,6 +70,7 @@ public class Constants {
     public static final String CUSTOMER = "customer";
     public static final String DESCRIPTION = "description";
     public static final String STATEMENT_DESCRIPTOR = "statementDescriptor";
+    public static final String STATEMENT_DESCRIPTOR_SUFFIX = "statementDescriptorSuffix"
     public static final String RECEIPT_EMAIL = "receiptEmail";
     public static final String UPDATE ="update";
 
